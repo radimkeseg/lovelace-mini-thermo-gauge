@@ -3,7 +3,7 @@
 A Home Assistant lovelace custom mini gauge card for any measurement.
 
 ![mini thermo gauge light](https://github.com/radimkeseg/lovelace-mini-thermo-gauge/blob/main/images/mini-thermo-gauge-light.png)
-![mini thermo gauge dark](https://github.com/radimkeseg/lovelace-mini-thermo-gauge/blob/main/images/mini-thermo-gauge-light.png)
+![mini thermo gauge dark](https://github.com/radimkeseg/lovelace-mini-thermo-gauge/blob/main/images/mini-thermo-gauge-dark.png)
 
 
 ## Usage
