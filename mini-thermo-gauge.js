@@ -1,4 +1,4 @@
-console.info(`%c MINI-THERMO-GAUGE \n%c         v0.2-beta `, 'color: orange; font-weight: bold; background: black', 'color: white; font-weight: bold; background: dimgray');
+console.info(`%c MINI-THERMO-GAUGE \n%c         v0.1-beta `, 'color: orange; font-weight: bold; background: black', 'color: white; font-weight: bold; background: dimgray');
 class MiniThermoGauge extends HTMLElement {
   constructor() {
     super();
