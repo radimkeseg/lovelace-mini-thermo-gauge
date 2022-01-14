@@ -29,6 +29,7 @@ Add it as a custom card to your lovelace : `'custom:mini-thermo-gauge'`.
 | `max` ***(required)*** | number | maximum value of the gauge |
 | `measurement` | string | custom unit of measurement |
 | `scale` | number | sizing factor, default = 1 |
+| `scale` | bool | show shadow of handles (visible on light background only), default = false |
 | `severity` | [severity object](#severity-object) | Severity map to change the gauge color. |
 
 #### Severity object
@@ -50,6 +51,7 @@ elements:
     measurement: °C
     entity: climate.thermo_livingroom
     scale: 0.75
+	shadow: true
     severity:
       green: 19
       yellow: 23
