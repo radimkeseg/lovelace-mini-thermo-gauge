@@ -1,6 +1,6 @@
 # Lovelace mini-thermo-gauge
 
-A Home Assistant lovelace custom mini gauge card for any measurement.
+A Home Assistant lovelace custom mini gauge card for climate instantiated by a thermometer valve such as [TuYa TS0601_thermostat].
 
 ![mini thermo gauge light](https://github.com/radimkeseg/lovelace-mini-thermo-gauge/blob/main/images/mini-thermo-gauge-light.png)
 ![mini thermo gauge dark](https://github.com/radimkeseg/lovelace-mini-thermo-gauge/blob/main/images/mini-thermo-gauge-dark.png)
@@ -51,7 +51,7 @@ elements:
     measurement: °C
     entity: climate.thermo_livingroom
     scale: 0.75
-	shadow: true
+    shadow: true
     severity:
       green: 19
       yellow: 23
