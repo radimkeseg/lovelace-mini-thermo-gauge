@@ -79,7 +79,7 @@ class MiniThermoGauge extends HTMLElement {
 		}
 		#HandPosition-Shadow{
 		  transform: translate(5px,2px);
-		  transform-origin: 125px 82px;
+		  transform-origin: 123px 75px;
 		  filter: blur(2px);
 		  transition-duration: 2s;
 		}
