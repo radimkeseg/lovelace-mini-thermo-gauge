@@ -422,12 +422,14 @@ class MiniThermoGauge extends HTMLElement {
 	  var friendly_name = this._getEntityStateValue(hass.states[config.entity], "friendly_name");
       root.getElementById("TextName").textContent = `${friendly_name}`;
 	  
-	  var preset_mode = this._getEntityStateValue(hass.states[config.entity], "preset_mode");
-      root.getElementById("TextMode").textContent = `${preset_mode}`;	
+	  var preset = this._getEntityStateValue(hass.states[config.entity], "preset");
+	  var system_mode = this._getEntityStateValue(hass.states[config.entity], "system_mode");
+      root.getElementById("TextMode").textContent = `${system_mode}`;	
+
       
 	  let mode = ["none","away","schedule","manual","boost","complex","comfort","eco"];
 	  for (var i = 0; i < mode.length; i++)
-        root.getElementById(`Mode-${mode[i]}`).style = (preset_mode ===  mode[i]) ? "display:inline" : "display:none";
+        root.getElementById(`Mode-${mode[i]}`).style = (preset ===  mode[i]) ? "display:inline" : "display:none";
 
       this._entityState = entityState;		
     }
