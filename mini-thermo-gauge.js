@@ -42,6 +42,7 @@ class MiniThermoGauge extends HTMLElement {
 		  --base-unit: ${cardConfig.scale};
 		  height: calc(var(--base-unit)*160px);
 		  position: relative;
+		  border: none;
 		}
 		.container{
 		  width: calc(var(--base-unit) * 200px);
